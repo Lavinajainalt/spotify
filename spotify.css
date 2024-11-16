@@ -1,0 +1,983 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    width: 300px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+.logo img {
+    width: 70px;
+    padding: 10px;
+    margin: 4px;
+}
+
+.library {
+    background-color: rgb(10, 9, 9);
+    color: rgb(161, 160, 160);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 4px;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+}
+
+.text1 {
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.create {
+    background-color: rgb(28, 27, 27);
+    margin: 12px;
+    padding: 20px;
+}
+
+.button1 {
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    margin: 4px;
+    padding: 15px 15px;
+    word-spacing: 4px 2px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #727272;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #B3B3B3;
+}
+
+.overflow {
+    height: 30vh;
+    overflow-y: auto
+}
+
+.overflow ::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+.overflow ::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    width: 3px;
+
+}
+
+.overflow :hover:-webkit-scrollbar-thumb {
+    background-color: rgb(94, 92, 92);
+    width: 2px;
+
+
+}
+
+.text2 {
+    color: white;
+    font-size: 20px;
+}
+
+.text3 {
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.create1 {
+    background-color: rgb(28, 27, 27);
+    margin: 12px;
+    padding: 20px;
+
+}
+
+.button1 {
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    margin: 4px;
+    padding: 15px 15px;
+    word-spacing: 4px 2px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button1 a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.content {
+    margin: 4px;
+    padding: 10px;
+    font-size: 14px;
+    color: rgb(202, 199, 199);
+    word-spacing: 2px;
+    line-height: 35px;
+}
+
+.content1 {
+    margin: 4px;
+    padding: 12px;
+    font-size: 15px;
+    color: white;
+
+}
+
+.content1 a {
+    text-decoration: none;
+    color: white;
+    ;
+
+}
+
+.content1:hover {
+    text-decoration: underline;
+}
+
+.button2 {
+    height: 35px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    margin: 4px;
+    padding: 15px 15px;
+    word-spacing: 4px 2px;
+    font-size: 18px;
+    border: 1px solid rgb(189, 183, 183);
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.button2:hover {
+    border-color: #ffff;
+    scale: 1.1;
+    
+
+}
+
+/* .button2 a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+} */
+.maincontaint {
+    margin-left: 300px;
+    margin-bottom: 100px;
+
+
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #131313;
+    position: fixed;
+    width: 80%;
+}
+
+/* 
+
+  .main{
+        top: 0%;
+        position: fixed;
+    } */
+
+
+.button3 {
+    margin: 10px;
+    background-color: #474343;
+    border: #181818;
+    border-radius: 50%;
+    padding: 6px;
+    height: 50px;
+
+}
+
+.button3:hover {
+    background-color: #5e5a5a;
+}
+
+.button4 {
+    margin: 10px;
+    color: #B3B3B3;
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 25%;
+    font-size: 18px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.button4:hover {
+    color: #5e5a5a;
+}
+
+.b4 {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+input {
+    background-color: #1b1919;
+    border: none;
+    color: #f0e6e6;
+}
+
+input {
+    color: #f0e6e6;
+    font-size: 18px;
+
+
+
+}
+
+.buttag {
+    display: flex;
+}
+
+.button5 {
+    height: 45px;
+    border-radius: 25px;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.443);
+
+    margin: 4px;
+    padding: 15px 15px;
+    word-spacing: 4px 2px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    margin-left: 40px;
+}
+
+.button5:hover {
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: #131313;
+}
+
+.button5 a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.443);
+}
+
+.button5 a:hover {
+    color: white;
+
+}
+
+.button6 {
+    height: 50px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    margin: 4px;
+    padding: 15px 15px;
+    word-spacing: 4px 2px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid white;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 12%;
+    margin-left: 40px;
+    font-weight: bolder;
+}
+
+.button6:hover {
+    background-color: #f0e6e6;
+    font-size: 20px;
+}
+
+.button6 a {
+    text-decoration: none;
+    color: black;
+}
+
+/* .button6 a:hover{
+    color:white;
+
+} */
+.spotifyplay {
+    padding: 20px, 40px;
+
+}
+
+.spotifyplay h2 {
+    color: #ffff;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.spotifyplay h3 {
+    color: #ffff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.playlist {
+    display: flex;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.items {
+    width: 250px;
+    min-width: 140px;
+    background-color: #131313;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.items {
+    text-decoration: none;
+}
+
+.items img {
+    width: 160px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+
+}
+
+.items a {
+    text-decoration: none;
+}
+
+.items h4 {
+    color: white;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.items p {
+    color: rgb(142, 140, 140);
+    ;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.items h4:hover {
+    text-decoration: underline;
+}
+
+.items:hover {
+    background-color: #1F1F1F;
+}
+
+.items .playbut {
+    position: relative;
+
+}
+
+.playbut span {
+    position: absolute;
+    background-color: #1db954;
+    border-radius: 100%;
+    padding: 10px;
+    right: 15px;
+    top: -60px;
+    opacity: 0;
+
+
+}
+
+.items:hover .playbut span {
+    opacity: 1;
+}
+
+.spotifyplay1 {
+    padding: 20px, 40px;
+
+}
+
+.spotifyplay1 h2 {
+    color: #ffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.spotifyplay1 h3 {
+    color: #ffff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.join {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.join h2:hover {
+    text-decoration: underline;
+}
+
+.join h3:hover {
+    text-decoration: underline;
+}
+
+.join h3 a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.playlist1 {
+    display: flex;
+    overflow: hidden;
+    margin-left: 10px;
+
+}
+
+.items1 {
+    width: 250px;
+    min-width: 140px;
+    background-color: #131313;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 6px;
+
+}
+
+.items1 a {
+    text-decoration: none;
+}
+
+.items1 img {
+    width: 170px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+
+}
+
+.items1 h4 {
+    color: white;
+}
+
+.items1 p {
+    color: rgb(142, 140, 140);
+    ;
+    margin: 10px;
+    font-size: 14px;
+}
+
+.items1 h4:hover {
+    text-decoration: underline;
+}
+
+.items1:hover {
+    background-color: #1F1F1F;
+}
+
+.items1 .playbut {
+    position: relative;
+
+}
+
+.playbut span {
+    position: absolute;
+    background-color: #1db954;
+    border-radius: 100%;
+    padding: 10px;
+    right: 15px;
+    /* height: 8vh; */
+
+    opacity: 0;
+
+
+}
+
+.items1:hover .playbut span {
+    opacity: 1;
+}
+
+.spotifyplay2 {
+    padding: 20px, 40px;
+
+}
+
+.spotifyplay2 h2 {
+    color: #ffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.spotifyplay2 h3 {
+    color: #ffff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.join {
+    display: flex;
+    justify-content: space-between;
+}
+
+.join h2:hover {
+    text-decoration: underline;
+}
+
+.join h3:hover {
+    text-decoration: underline;
+}
+
+.playlist2 {
+    display: flex;
+    overflow: hidden;
+    margin-left: 10px;
+
+}
+
+.items2 {
+    width: 250px;
+    min-width: 140px;
+    background-color: #131313;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.items2 a {
+    text-decoration: none;
+}
+
+.items2 img {
+    width: 170px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+
+}
+
+.items2 h4 {
+    color: rgb(142, 140, 140);
+    font-size: 24;
+}
+
+.items2:hover {
+    background-color: #1F1F1F;
+}
+
+.items2 .playbut {
+    position: relative;
+
+}
+
+.playbut span {
+    position: absolute;
+    background-color: #1db954;
+    border-radius: 100%;
+    padding: 10px;
+    right: 15px;
+    top: -60px;
+    opacity: 0;
+
+
+}
+
+.items2:hover .playbut span {
+    opacity: 1;
+}
+
+.spotifyplay3 {
+    padding: 20px, 40px;
+
+}
+
+.spotifyplay3 h2 {
+    color: #ffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.spotifyplay3 h3 {
+    color: #ffff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.join {
+    display: flex;
+    justify-content: space-between;
+}
+
+.join h2:hover {
+    text-decoration: underline;
+}
+
+.join h3:hover {
+    text-decoration: underline;
+}
+
+.playlist3 {
+    display: flex;
+    overflow: hidden;
+    margin-left: 10px;
+
+}
+
+.items3 {
+    width: 250px;
+    min-width: 140px;
+    background-color: #131313;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.items3 a {
+    text-decoration: none;
+}
+
+.items3 img {
+    width: 170px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+
+}
+
+.items3 h4 {
+    color: rgb(142, 140, 140);
+    font-size: 24;
+}
+
+.items3:hover {
+    background-color: #1F1F1F;
+}
+
+.items3 .playbut {
+    position: relative;
+
+}
+
+.playbut span {
+    position: absolute;
+    background-color: #1db954;
+    border-radius: 100%;
+    padding: 10px;
+    right: 15px;
+    top: -60px;
+    opacity: 0;
+
+
+}
+
+.items3:hover .playbut span {
+    opacity: 1;
+}
+
+.spotifyplay4 {
+    padding: 20px, 40px;
+
+}
+
+.spotifyplay4 h2 {
+    color: #ffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.spotifyplay4 h3 {
+    color: #ffff;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.join {
+    display: flex;
+    justify-content: space-between;
+}
+
+.join h2:hover {
+    text-decoration: underline;
+}
+
+.join h3:hover {
+    text-decoration: underline;
+}
+
+.playlist4 {
+    display: flex;
+    overflow: hidden;
+    margin-left: 10px;
+
+}
+
+.items4 {
+    width: 250px;
+    min-width: 140px;
+    background-color: #131313;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.items4 a {
+    text-decoration: none;
+}
+
+.items4 img {
+    width: 170px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+
+}
+
+.items4 h4 {
+    color: rgb(142, 140, 140);
+    font-size: 24;
+}
+
+.items4:hover {
+    background-color: #1E1E1E;
+}
+
+.items4 .playbut {
+    position: relative;
+
+}
+
+.playbut span {
+    position: absolute;
+    background-color: #1db954;
+    border-radius: 100%;
+    padding: 10px;
+    right: 15px;
+    top: -60px;
+    opacity: 0;
+
+
+}
+
+.items4:hover .playbut span {
+    opacity: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    line-height: 25px;
+
+}
+
+li {
+    color: #A4B3AE;
+    font-size: 18px;
+}
+
+li a {
+    text-decoration: none;
+    color: #A4B3AE;
+    font-size: 18px;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+.instagram {
+    background-color: #1c1919;
+    height: 6vh;
+    border-radius: 50%;
+}
+
+.instagram:hover {
+    background-color: #A4B3AE;
+    
+}
+
+.twitter {
+    background-color: #1c1919;
+    height: 6vh;
+    border-radius: 50%;
+}
+
+.twitter:hover {
+    background-color: #A4B3AE;
+}
+
+.facebook {
+    background-color: #1c1919;
+
+    height: 6vh;
+    border-radius: 50%;
+}
+
+.facebook:hover {
+    background-color: #A4B3AE;
+}
+
+hr {
+    margin-right: 40px;
+    margin-left: 40px;
+    border: 1px solid#A4B3AE;
+}
+
+.endpart a {
+    text-decoration: none;
+    color: #A4B3AE;
+    font-size: 17px;
+    margin-left: 40px;
+}
+
+.endpart {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+}
+
+.endpart img {
+    font-size: 18px;
+}
+
+/* .footerclass {
+    color: white;
+    position: fixed;
+    z-index:-1;
+    width: 100%;
+
+
+}
+p1{
+    color: white;
+
+} */
+.signup-section{
+    background:linear-gradient(45deg,#AA2D9A,#A138A4,#A13AA5,#914DB4,#8857BD,#8161C5,#786ACC,#6E77D7,#6186E3,#5694EF,#2575fc);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 5px;
+    right: 5px;
+    height: 12vh;
+    
+    
+    
+}
+.signup-section p{
+    display: flex;
+    justify-content: baseline;
+    line-height: 20px;
+}
+
+.para p{
+    font-weight: bold;
+    font-size: 16px;
+}
+.parapart{
+    display: flex;
+    justify-content:space-between;
+
+}
+.parapart p{
+    font-size: 20px;
+}
+/* .text-content p:first-child{
+    font-weight: bold;
+    font-size: 1.2rem;
+} */
+.signup-btn{
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    padding: 20px 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition:background-color 0.3s;
+    height: 6vh;
+    width: 140px;
+    font-weight: bold;
+    top: 10px;
+    padding: 5px;
+    margin-right: 15px;
+    margin-bottom: px;
+    bottom: 20px;
+    line-height: 10px;
+
+}
+.signup-btn:hover{
+    background-color: #ddd;
+
+}
+h4{
+    font-size: 17px;
+}
